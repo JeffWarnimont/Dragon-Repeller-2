@@ -1,4 +1,12 @@
-/* Original html and css provided by Beau Carnes of freecodecamp.org for learning/practice with some small changes made by me. Javascript follow along tutorial for practice/learning syntax. I've expanded on several features and added some new ones of my own design. New features include armor which adds a defensive property and an inn which provides healing services.  Added more weapons and monsters.  Placed a cap on player health and adjusted player and monster damage calcualtions.  Original version battle calculations actually allowed the player to take negative damage after a certain xp threshold which increased health.  Considering adding a 'new game plus' game mode where all monsters get stronger after each dragon is defeated.  Possibly a second mini game as well. This may be put on hold though as I'd prefer to create my own game from scratch now instead of expanding on someone else's starter.  It was fun though :) */
+/* Expansion and improvement of a game application used in an original Javascript tutorial by Beau Carnes of freecodecamp.org.
+I've expanded on several features and added some new ones of my own design. New features include armor which adds a defensive 
+property and an inn which provides healing services.  Added more weapons and monsters.  Placed a cap on player health and 
+adjusted player and monster damage calculations.  Original version battle calculations actually allowed the player to take 
+negative damage after a certain xp threshold which increased health.  Considering adding a 'new game plus' game mode where 
+all monsters get stronger after each dragon is defeated.  Possibly a second mini game as well. This may be put on hold though 
+as I'd prefer to create my own game from scratch now instead of expanding on someone else's starter.  It was fun a fun way to 
+refresh on Javascript though :) */
+
 let xp = 0;
 let health = 100;
 let gold = 50;
